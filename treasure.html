@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> <head> 
+    <title>My Flex Website</title>
+    <h2>Find the treasure Sanjay</h2>
+    <style>
+    .flex-container {
+      display: flex;  flex-direction:row;
+      background-color: red;
+  }
+
+.flex-container > div {  /*div children of the flex container*/
+  background-color: #f1f1f1; 
+  margin: 10px;  padding: 20px;  font-size: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) { 
+	 .flex-container{
+		 flex-direction:column;
+		 background-color: green;
+	  }
+	}
+</style></head>
+<body>
+    <p>Click on the squares to find the treasure</p>
+    <div class="flex-container" id="clicks">
+        <p>Number of clicks is zero.</p></div>
+    <div class="flex-container" id="distance">
+        <p>Distance is unknown.</p></div>
+    <div class="flex-container" id="target">
+        <div class = "Row1">
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+        </div>
+        <div class= "Row2">
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+        </div>  
+        <div class="Row3">
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+        </div>
+        <div class= "Row4">
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+        </div>
+        <div class= "Row5">
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+            <div><img src="oldbook.jpg" alt="oldbook" width="200" height="200"></div>
+        </div> 
+          </div>
+
+</body>
+</html>	
